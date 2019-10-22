@@ -10,7 +10,7 @@ classes = set(vocab.Index.values)
 class_to_idx = {cls: i for i, cls in enumerate(classes)}
 idx_to_class = {i: cls for cls, i in class_to_idx.items()}
 
-sub = pd.read_csv('youtube8mchallenge/preds.csv')
+sub = pd.read_csv('2018_preds.csv')
 
 pred_pairs = defaultdict(list)
 

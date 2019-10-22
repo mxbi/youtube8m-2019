@@ -6,7 +6,7 @@ import mlcrate as mlc
 
 av_preds = mlc.load('./av_preds.pkl')
 
-sub = pd.read_csv('youtube8mchallenge/preds.csv')
+sub = pd.read_csv('2018_preds.csv')
 
 all_ids = sub['VideoId'].values
 
