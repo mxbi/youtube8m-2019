@@ -3,6 +3,8 @@
 Executing commands listed bellow will train models and make predictions for test examples. Please adjust paths according to your setup.  
 `requirements.yaml` file list dependencies needed to run the code.
 
+After prediction files for the models are created you can use `combine.ipynb` to generate a submission file. Adjust file paths at the beginning accordingly.  
+
 ## Localization models
 ```
 # Train embedding localization
@@ -144,3 +146,8 @@ python inference_direct.py \
    --checkpoint 572 \
    --prediction_file="./dbof_finetune_wmask_cp752"
 ```
+
+## Global model
+
+Please use inference from [2nd year model](https://github.com/miha-skalic/youtube8mchallenge) to generate predictions.
+ 
